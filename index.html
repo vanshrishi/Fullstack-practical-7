@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>practical-7</title>
+    <style>
+    #container
+       {
+           border: 5px solid lightgray;
+           margin: 500px;
+
+       }
+       #header
+       {
+           /* border: 2px solid lightslategray; */
+           margin: 0px auto;
+           color: white;
+           font-size: 40px;
+           background-color: gray;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           margin-bottom: 10px;
+       }
+       #banner
+       {
+           /* border: 2px solid lightseagreen; */
+           height: 100px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           background-color: lightseagreen;
+           /* margin-bottom: 10px; */
+           color: white;
+       }
+       #section-1
+       {
+           /* border: 2px solid lightsalmon; */
+           height: 100px;
+           /* margin-bottom: 10px; */
+       }
+       #lc
+       {
+           /* border: 1px solid lightgreen; */
+           width: 48%;
+           height: 100px;
+           float: left;
+       }
+       #rc
+       {
+           /* border: 1px solid lightgreen; */
+           width: 48%;
+           height: 100px;
+           float: right;
+       }
+       #llc
+       {
+           /* border: 1px solid lightgreen; */
+           width: 39%;
+           float: left;
+           background-color: goldenrod;
+           height: 100px;
+           margin-right: 10%;
+           margin-left: 10%;
+           border-radius: 50%;
+       }
+       #lrc
+       {
+
+           width: 39%;
+           float: left;
+           background-color:goldenrod;
+           height: 100px;
+           border-radius: 50%;
+       }
+       #rrc
+       {
+
+           width: 39%;
+           float: left;
+           background-color:goldenrod;
+           height: 100px;
+           margin-right: 10%;
+           border-radius: 50%;
+       }
+       #rlc
+       {
+           /* border: 1px solid lightgreen; */
+           width: 39%;
+           float: left;
+           background-color:goldenrod;
+           height: 100px;
+           margin-right: 10%;
+           border-radius: 50%;
+       }
+       #section-2
+       {
+           /* border: 2px solid lightskyblue; */
+           height: 167px ;
+           /* margin-bottom: 10px; */
+
+       }
+       #left
+       {
+           /* border: 1px solid lightslategray; */
+           width: 49%;
+           background-color: gray;
+           float: left;
+           height: 160px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           color: white;
+
+       }
+       #right
+       {
+           /* border: 1px solid lightpink; */
+           width: 49%;
+           float: right;
+
+       }
+       #artical-1
+       {
+           /* border: 1px solid blue; */
+           background-color: rgb(255, 123, 0);
+           color: white;
+           height: 50px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           margin-bottom: 5px;
+       }
+       #artical-2
+       {
+           /* border: 1px solid blue; */
+           background-color:rgb(255, 123, 0);
+           color: white;
+           height: 50px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           margin-bottom: 5px;
+       }
+       #artical-3
+       {
+           /* border: 1px solid blue; */
+           background-color: rgb(255, 123, 0);
+           color: white;
+           height: 50px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+       #section-3
+       {
+           /* border: 2px solid lightblue; */
+           height: 120px;
+           /* margin-bottom: 10px; */
+       }
+       #ls
+       {
+           /* border: 1px solid lightpink; */
+
+           float: left;
+           width: 48%;
+           height: 120px;
+
+
+       }
+       #rs
+       {
+           /* border: 1px solid lightpink; */
+
+           float: right;
+           width: 48%;
+           height: 120px;
+       }
+       #pl
+       {
+           /* border: 1px solid lightgreen; */
+           width: 39%;
+           float: left;
+           background-color: red;
+           height: 120px;
+           margin-right: 10%;
+           margin-left: 10%;
+
+       }
+       #pr
+       {
+           /* border: 1px solid lightgreen; */
+           width: 39%;
+           float: left;
+           background-color: red;
+           height: 120px;
+
+       }
+       #ppl
+       {
+           /* border: 1px solid lightgreen; */
+           width: 39%;
+           float: left;
+           background-color: red;
+           height: 120px;
+           margin-right: 10%;
+
+       }
+       #ppr
+       {
+           /* border: 1px solid lightgreen; */
+           width: 39%;
+           float: left;
+           background-color: red;
+           height: 120px;
+           margin-right: 10%;
+
+       }
+       #footer
+       {
+
+           /* border: 2px solid lightslategray; */
+           margin: 0px auto;
+           color: white;
+           font-size: 40px;
+           background-color: darksalmon;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           margin-bottom: 10px;
+
+       }
+       h3
+       {
+           text-align: center;
+       }
+
+     </style>
+  </head>
+  <body>
+    <div id="container">
+     <div id="header">header</div>
+     <div id="banner">banner</div>
+     <h3>Section-1</h3>
+     <div id="section-1">
+         <div id="lc">
+             <div id="llc"></div>
+             <div id="lrc"></div>
+         </div>
+         <div id="rc">
+             <div id="rrc"></div>
+             <div id="rlc"></div>
+         </div>
+     </div>
+     <h3>Section-2</h3>
+     <div id="section-2">
+         <div id="left">main content</div>
+         <div id="right">
+             <div id="artical-1">artical-1</div>
+             <div id="artical-2">artical-2</div>
+             <div id="artical-3">artical-3</div>
+         </div>
+     </div>
+     <h3>Section-3</h3>
+     <div id="section-3">
+         <div id="ls">
+             <div id="pl"></div>
+             <div id="pr"></div>
+         </div>
+         <div id="rs">
+             <div id="ppl"></div>
+             <div id="ppr"></div>
+         </div>
+     </div>
+     <h3>Section-4</h3>
+     <div id="footer">footer</div>
+
+ </div>
+  </body>
+</html>
